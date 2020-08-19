@@ -1,0 +1,29 @@
+#include<stdio.h>
+void func1(int array[],int length)
+{
+	int sum=0;      // f1=k1
+	int product=1;
+	for(int i=0; i<length;i++)
+	{
+		sum+= array[i]; // f2=k2*n
+	}
+	for (int i=0;i<length;i++)
+	{
+		product *=array[1]; // f3=k3*n
+	}
+}
+
+int main()
+{
+	int arr[]={3,5,66};
+	func1(arr,3);
+	return 0;
+}
+
+
+
+//Tn=f1+f2+f3
+//Tn=k1+k2n+k3n
+//Tn=(k2+k3)n
+//Tn=k4n
+//O(n)
