@@ -1,0 +1,15 @@
+class human:
+	name=None
+	age=None;
+	def get_name(self):
+		print("Enter your name")
+		self.name=input()
+	def get_age(self):
+		print("Enter your age")
+		self.age=input()
+	def put_name(self):
+		print("your name is",self.name)
+	def put_age(self):
+		print("your age is",self.age)
+person1=human()
+person1.get_name()
