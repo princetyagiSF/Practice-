@@ -1,0 +1,15 @@
+ What is <Yield> Keyword in Python?
+
+A) The <yield> keyword in Python can turn any function into a generator. Yields work like a standard return keyword.
+
+But it’ll always return a generator object. Also, a function can have multiple calls to the <yield> keyword.
+
+Example:
+
+def testgen(index):
+weekdays = ['sun','mon','tue','wed','thu','fri','sat']
+yield weekdays[index]
+yield weekdays[index+1]
+day = testgen(0)
+print next(day), next(day)
+Output: sun mon
