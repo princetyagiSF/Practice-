@@ -1,0 +1,10 @@
+Why is <__init__.py> module used in Python?
+Ans.
+
+The <__init__.py> module can help in fulfilling following objectives.
+
+1. It makes Python interpret directories as containing packages by excluding the ones with a common name such as string.
+
+2. It grants a programmer with the control to decide which directory is a package and which is not.
+
+3. However, the <__init__.py> can also be an empty file. It can then help in executing the initialization code for a package or setting the <__all__> variable.
