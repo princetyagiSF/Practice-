@@ -1,0 +1,6 @@
+What is a negative index in Python?
+Ans.
+In Python, we can access both arrays & lists using a positive or negative numbers (aka index). A negative index reads the list elements from the end counting in the backward direction. Check out from the example given below.
+
+>
+>> import array >>> a = [1, 2, 3] >>> print a[-3] 1 >>> print a[-2] 2 >>> print a[-1] 3
