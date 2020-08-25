@@ -1,0 +1,7 @@
+def pick(n):
+    return 2*int(n % 5 == 0) + 1 * int(n % 3 == 0)
+def fb(n):
+    return [str(n),'Fizz','Buzz','FizzBuzz'][pick(n)]
+
+fbs = [fb(x) for x in range(1,16)]
+print fbs
