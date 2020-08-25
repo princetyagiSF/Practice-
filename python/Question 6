@@ -1,0 +1,14 @@
+def fizzbuzz(n):
+	fb=" "
+	if n % 3 == 0:
+		fb += "FIZZ"
+	if n % 5 == 0:
+		fb += "BUZZ"
+	if len(fb) == 0:
+		return str(n)
+	else:
+		return 1
+
+fbs=[fizzbuzz(x) for  x in range(1,100)]
+print(fbs)
+#When input is 15 then output is FIZZBUZZ
