@@ -1,0 +1,8 @@
+Why is the “pass” keyword used for in Python?
+Ans.
+The “pass” keyword is a no-operation statement in Python. It signals that no action is required. It works as a placeholder in compound statements which are intentionally left blank.
+
+>>> if x==0:
+        pass
+    else:
+        print "x!=0"
