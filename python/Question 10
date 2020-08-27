@@ -1,0 +1,6 @@
+What are iterators in Python?
+Ans.
+Iterators in Python enables to traverse containers like a list or a set of elements. For a container to support iterator, it must provide the <__iter__()> method.
+
+container.__iter__() :
+# This returns an iterator object.
