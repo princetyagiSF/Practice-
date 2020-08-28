@@ -1,0 +1,15 @@
+What is Enumerate() Function in Python?
+
+Answer:-
+The Python enumerate() function adds a counter to an iterable object. enumerate() function can accept sequential indexes starting from zero.
+
+Python Enumerate Example:
+
+subjects = ('Python', 'Interview', 'Questions')
+for i, subject in enumerate(subjects):
+  print(i, subject)
+
+Output:
+0 Python
+1 Interview
+2 Questions
