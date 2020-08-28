@@ -1,0 +1,13 @@
+ How do you Concatenate Strings in Python?
+
+Answer:-
+We can use ‘+’ to concatenate strings.
+
+Python Concatenating Example:
+
+# See how to use ‘+’ to concatenate strings.
+
+>>> print('Python' + ' Interview' + ' Questions')
+# Output:
+
+Python Interview Questions
