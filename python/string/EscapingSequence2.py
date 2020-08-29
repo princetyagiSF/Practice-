@@ -1,0 +1,5 @@
+String1="{l}{f}{g}".format(g='Hello',f='From',l='Prince')
+String2="{l}{f}{g}".format(g='Hello',f='From',l='XYZ')
+print('\nPrint String in order of keywords: ')
+print(String1)
+print(String2)
