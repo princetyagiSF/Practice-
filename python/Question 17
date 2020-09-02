@@ -1,0 +1,8 @@
+What are the different ways to generate random numbers in Python?
+Ans.
+
+#1. random() - This command returns a floating point number, between 0 and 1.
+
+#2. uniform(X, Y) - It returns a floating point number between the values given as X and Y.
+
+#3. randint(X, Y) - This command returns a random integer between the values given as X and Y.
