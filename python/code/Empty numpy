@@ -1,0 +1,8 @@
+How can you create Empty NumPy Array In Python?
+
+A) We can create Empty NumPy Array in two ways in Python,
+
+1) import numpy
+numpy.array([])
+
+2) numpy.empty(shape=(0,0))
