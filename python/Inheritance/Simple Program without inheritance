@@ -1,0 +1,11 @@
+#Simple program
+class A:
+  	def feature1(self):
+      print('feature 1 working')
+	
+   	def feature2(self):
+  		print('feature 2 working')
+
+a1=A()
+a1.feature1()
+a1.feature2()
