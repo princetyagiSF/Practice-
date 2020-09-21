@@ -1,0 +1,2 @@
+Is there a switch or case statement in Python? If not then what is the reason for the same?
+No, Python does not have a Switch statement, but you can write a Switch function and then use it.
